@@ -25,7 +25,23 @@ public class Studente {
         this.data_nascita = data_nascita;
         this.matricola = matricola;
     }
+
+    public String getCodiceFiscale() {
+        return this.codiceFiscale;
+    }
+
+    public LocalDate getData_nascita() {
+        return this.data_nascita;
+    }
+
+    public void setCodiceFiscale(String codiceFiscale) {
+        this.codiceFiscale = codiceFiscale;
+    }
+
+    public void setData_nascita(LocalDate data_nascita) {
+        this.data_nascita = data_nascita;
+    }
     
     
-    
+   
 }
