@@ -19,6 +19,13 @@ public class Aula {
         this.riempimento = riempimento;
         this.a = a;
     }
-    
+
+    public boolean getRiempimento() {
+        return this.riempimento;
+    }
+
+    public void setRiempimento(boolean riempimento) {
+        this.riempimento = riempimento;
+    }
     
 }
