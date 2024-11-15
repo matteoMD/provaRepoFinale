@@ -33,10 +33,23 @@ public class Studente {
     public void setMatricola(String matricola) {
         this.matricola = matricola;
     }
-    
-    
-    
-    
+
+    public LocalDate getData_nascita() {
+        return this.data_nascita;
+    }
+
+    public String getCodiceFiscale() {
+        return this.codiceFiscale;
+    }
+
+    public void setCodiceFiscale(String codiceFiscale) {
+        this.codiceFiscale = codiceFiscale;
+    }
+
+    public void setData_nascita(LocalDate data_nascita) {
+        this.data_nascita = data_nascita;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -52,5 +65,4 @@ public class Studente {
     public void setCognome(String cognome) {
         this.cognome = cognome;
     }
-
 }
