@@ -19,6 +19,15 @@ public class Aula {
         this.riempimento = riempimento;
         this.a = a;
     }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
     
     
 }
