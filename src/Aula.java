@@ -13,5 +13,12 @@ public class Aula {
     private int posti;
     private boolean riempimento;
     private int a;
+
+    public Aula(int posti, boolean riempimento, int a) {
+        this.posti = posti;
+        this.riempimento = riempimento;
+        this.a = a;
+    }
+    
     
 }
