@@ -9,7 +9,7 @@
  * @author acest
  */
 public class Aula {
-    
+
     private int posti;
     private boolean riempimento;
     private int a;
@@ -27,7 +27,7 @@ public class Aula {
     public void setPosti(int posti) {
         this.posti = posti;
     }
-    
+
     public int getA() {
         return a;
     }
@@ -36,6 +36,12 @@ public class Aula {
         this.a = a;
     }
 
-    
-    
+    public boolean getRiempimento() {
+        return this.riempimento;
+    }
+
+    public void setRiempimento(boolean riempimento) {
+        this.riempimento = riempimento;
+    }
+
 }
