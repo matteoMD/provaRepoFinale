@@ -25,6 +25,15 @@ public class Studente {
         this.data_nascita = data_nascita;
         this.matricola = matricola;
     }
+
+    public String getMatricola() {
+        return matricola;
+    }
+
+    public void setMatricola(String matricola) {
+        this.matricola = matricola;
+    }
+    
     
     
     
