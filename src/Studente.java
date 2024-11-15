@@ -6,12 +6,12 @@ import java.time.LocalDate;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author acest
  */
 public class Studente {
+
     private String nome;
     private String cognome;
     private String codiceFiscale;
@@ -25,7 +25,21 @@ public class Studente {
         this.data_nascita = data_nascita;
         this.matricola = matricola;
     }
-    
-    
-    
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+
 }
